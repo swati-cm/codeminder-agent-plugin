@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "codeminder-agent",
+  "version": "1.0.0",
+  "description": "Alex — CodeMinder AI solutions engineer. Helps engineering leaders understand Ground Truth for their roadmap, qualifies design partners, and books demos.",
+  "author": {
+    "name": "CodeMinder Inc",
+    "email": "swati@gocodeminder.com",
+    "url": "https://gocodeminder.com"
+  },
+  "homepage": "https://github.com/swati-cm/codeminder-agent-plugin",
+  "category": "productivity",
+  "keywords": ["engineering", "observability", "roadmap", "b2b", "devtools", "agent", "a2a"],
+  "agents": [
+    {
+      "name": "alex",
+      "description": "CodeMinder AI solutions engineer — connects user pain, system signals, and business impact into Ground Truth for your roadmap.",
+      "skill": "./skill.md",
+      "endpoint": "https://codeminder-agent-3k4xhcdlva-uc.a.run.app/chat"
+    }
+  ]
+}
