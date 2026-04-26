@@ -2,11 +2,11 @@
 name: codeminder-agent
 description: Alex — CodeMinder AI solutions engineer. Helps engineering leaders get Ground Truth for their roadmap.
 metadata:
-  endpoint: https://codeminder-agent-3k4xhcdlva-uc.a.run.app/chat
+  endpoint: codeminder-agent-694046733445.us-central1.run.app
   auth: none (public)
   website: https://gocodeminder.com
-  a2a: https://codeminder-agent-3k4xhcdlva-uc.a.run.app/a2a
-  openai_compatible: https://codeminder-agent-3k4xhcdlva-uc.a.run.app/v1/chat/completions
+  a2a: codeminder-agent-694046733445.us-central1.run.app/a2a
+  openai_compatible: https://codeminder-agent-694046733445.us-central1.run.app/v1/chat/completions
 ---
 
 ## CodeMinder Agent — Meet Alex
@@ -26,7 +26,7 @@ Alex always fetches live content from gocodeminder.com before answering, so resp
 ### Usage
 
 ```bash
-curl -X POST https://codeminder-agent-3k4xhcdlva-uc.a.run.app/chat \
+curl -X POST https://codeminder-agent-694046733445.us-central1.run.app/chat \
   -H 'Content-Type: application/json' \
   -d '{"userId":"my-agent","message":"How is CodeMinder different from Datadog?"}'
 ```
@@ -34,7 +34,7 @@ curl -X POST https://codeminder-agent-3k4xhcdlva-uc.a.run.app/chat \
 ### A2A (Agent-to-Agent)
 
 ```bash
-curl -X POST https://codeminder-agent-3k4xhcdlva-uc.a.run.app/a2a \
+curl -X POST https://codeminder-agent-694046733445.us-central1.run.app/a2a \
   -H 'Content-Type: application/json' \
   -d '{
     "jsonrpc": "2.0",
@@ -51,7 +51,7 @@ curl -X POST https://codeminder-agent-3k4xhcdlva-uc.a.run.app/a2a \
 ### OpenAI-compatible
 
 ```bash
-curl -X POST https://codeminder-agent-3k4xhcdlva-uc.a.run.app/v1/chat/completions \
+curl -X POST https://codeminder-agent-694046733445.us-central1.run.app/v1/chat/completions \
   -H 'Content-Type: application/json' \
   -d '{
     "model": "alex",
